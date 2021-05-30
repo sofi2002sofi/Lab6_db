@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/lab_5_db?useSSL=false
-    username: sofia
-    password: password
+    username: vita
+    password: vitusya13
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     # Show or not log for each sql query
