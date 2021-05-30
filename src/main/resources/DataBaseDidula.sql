@@ -1,5 +1,7 @@
 create database if not exists lab_5_db;
 use lab_5_db;
+CREATE USER 'sofia'@'%' IDENTIFIED BY 'password';
+GRANT SELECT ON *.* TO 'sofia'@'%';
 
 DROP TABLE IF EXISTS test;
 DROP TABLE IF EXISTS module;
